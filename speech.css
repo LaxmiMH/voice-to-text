@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(236, 105, 131);
+    
+}
+.container {
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    box-shadow: 0 0 2px 2px #888;
+    padding-top: 30px;
+}
+
+/*.btn-click {
+    width: 50%;
+    padding: 5px;
+    margin: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow:  inset 0 0 2px 2px #888,0 0 2px 2px #888;
+   background-image: linear-gradient(to right,  rgb(34, 110, 172), rgb(0, 255, 42),rgb(47, 0, 255),rgb(255, 0, 149))
+}*/
+   
+.btn-click {background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC  51%, #FC354C  100%)}
+.btn-click {
+   margin: 2%;
+   padding: 10px ;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: inline-block;
+   border: 0;
+ }
+
+ .btn-click:hover {
+   background-position: right center ; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+   
+
+form {
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
